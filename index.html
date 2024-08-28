@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encríptalo!</title>
+    <link rel="stylesheet" href="./Styles/style.css" />
+  </head>
+  <body>
+    <main class="contenedor">
+      <div class="contenedor__logo">
+        <a href="index.html"
+          ><img class="img__logo" src="./img/Logo (2).png" alt="Logo de Alura"
+        /></a>
+      </div>
+
+      <section class="contenido">
+        <div class="contenido__caja__texto">
+          <textarea placeholder="Ingrese el texto aqui..."></textarea>
+        </div>
+        <div class="contenido_caja_aviso">
+          <img class="img__exclamacion" src="./img/exclamacion.png" alt="" />
+          <p class="texto_aviso">Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class="contenido_caja_botones">
+          <button class="boton__encriptar">Encriptar</button>
+          <button class="boton__desencriptar">Desencriptar</button>
+        </div>
+      </section>
+
+      <section class="contenido__respuesta">
+        <div class="contenido__respuesta__caja">
+          <div class="contenido__respuesta__caja__elementos">
+            <img
+              class="contenido__respuesta__caja__img"
+              src="./img/sleep.png"
+              alt=""
+            />
+            <h2>Ningún mensaje fue encontrado</h2>
+            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
